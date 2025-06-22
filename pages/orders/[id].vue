@@ -251,7 +251,7 @@ interface Order {
   }>;
 }
 
-// Sample data - replace with your actual data fetching
+// Order data
 const order = ref<Order>({});
 
 const cancelDialog = ref(false);
