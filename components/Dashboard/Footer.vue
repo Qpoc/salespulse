@@ -88,7 +88,12 @@ const props = defineProps({
 });
 
 const orderColumns = [
-  { name: "customer", label: "Customer", field: "customer", align: "left" },
+  {
+    name: "customer",
+    label: "Customer",
+    field: (row) => row.customer.name,
+    align: "left",
+  },
   { name: "date", label: "Date", field: "date" },
   { name: "total_price", label: "Amount", field: "total_price" },
   { name: "status", label: "Status", field: "status" },
