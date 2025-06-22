@@ -1,24 +1,26 @@
-# Nuxt Minimal Starter
+# Sales Dashboard
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Frontend (Nuxt 3 + Quasar)
 
-## Setup
+### 📌 Overview
+Frontend application built with **Nuxt 3** and **Quasar Framework**, featuring a dynamic dashboard with tables, charts, and pagination.
 
-Make sure to install dependencies:
+### ✨ Features
+- **Dynamic Table Rendering**  
+  - Supports nested data (e.g., `customer: { name: "John" }`).
+  - Server-side pagination.
+- **Pagination**  
+  - Next/Previous buttons.
+  - Rows-per-page selector.
+- **Charts**  
+  - Sales chart.
 
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
+### 🛠️ Setup
+1. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
 
 ## Development Server
 
