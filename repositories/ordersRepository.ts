@@ -19,5 +19,9 @@ export const useOrdersRepository = () => {
     getOrders: async (options: any) => {
       return await api.get<Order[]>("/v1/orders", options);
     },
+
+    showOrder: async (id: string) => {
+      return await api.get<Order>(`/v1/orders/${id}`);
+    },
   };
 };
