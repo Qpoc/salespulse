@@ -72,7 +72,6 @@
       <q-card v-else class="chart-card">
         <q-card-section>
           <div class="text-h6">Sales Overview</div>
-          <div class="text-caption text-grey">Last 30 days performance</div>
         </q-card-section>
         <q-separator />
         <q-card-section>
